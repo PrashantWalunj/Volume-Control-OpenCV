@@ -85,8 +85,7 @@ while(cap.isOpened()):
         cv2.putText(img,"Volume 40%", (50,50), cv2.FONT_HERSHEY_SIMPLEX, 2, 2)
         call(["amixer", "-D", "pulse", "sset", "Master", "40%"])
     elif count_defects == 2: # 3 fingers in the frame - 60% volume
-        str = "Volume 60%"
-        cv2.putText(img, str, (5,50), cv2.FONT_HERSHEY_SIMPLEX, 1, 2)
+        cv2.putText(img, "Volume 60%", (5,50), cv2.FONT_HERSHEY_SIMPLEX, 1, 2)
         call(["amixer", "-D", "pulse", "sset", "Master", "60%"])
     elif count_defects == 3: # 4 fingers in the frame - 80% volume
         cv2.putText(img,"Volume 80%", (50,50), cv2.FONT_HERSHEY_SIMPLEX, 2, 2)
