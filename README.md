@@ -1,5 +1,5 @@
 # Volume-Control-OpenCV
-Now control the volume of your Ubuntu/Linux system using your hand gestures 
+Now control the volume of your Linux system using your hand gestures 
 
 Works on OpenCV 2.4.x, 3.2.x and Python 2.x, Python 3.x
 
