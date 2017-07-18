@@ -76,7 +76,7 @@ while(cap.isOpened()):
         # ignore angles > 90 and highlight rest with red dots
         if angle <= 90:
             count_defects += 1
-            cv2.circle(crop_img,far,1,[0,0,255],-1)
+            cv2.circle(crop_img,far,1,[255,0,0],3)
         
         # draw a line from start to end i.e. the convex points (finger tips)
         cv2.line(crop_img,start,end,[0,255,0],2)
